@@ -1,14 +1,14 @@
 package is.hi.hbv202g.ass6;
 
-public class CarManager {
+public class CarOwner {
     String theName;
 
-    Car theManagedCar;
+    Car theOwnedCar;
 
 
-    CarManager(String name, Car managedCar) {
+    CarOwner(String name, Car managedCar) {
         theName = name;
-        theManagedCar = managedCar;
+        theOwnedCar = managedCar;
     }
 
     String getName() {
@@ -16,7 +16,7 @@ public class CarManager {
     }
     
     String getNameOfCar() {
-        return theManagedCar.name;
+        return theOwnedCar.name;
     }
 
 }

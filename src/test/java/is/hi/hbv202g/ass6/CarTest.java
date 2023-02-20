@@ -8,8 +8,8 @@ public class CarTest {
     @Test
     public void getNameOfCar() {
         Car car=new Car("Beetle");
-        CarManager carManager = new CarManager("John Doe", car);
-        assertEquals("Beetle", carManager.getNameOfCar());
+        CarOwner carOwner = new CarOwner("John Doe", car);
+        assertEquals("Beetle", carOwner.getNameOfCar());
     }
 
 }
