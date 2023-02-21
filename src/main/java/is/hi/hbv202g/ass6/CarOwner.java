@@ -6,9 +6,9 @@ public class CarOwner {
     private Car theOwnedCar;
 
 
-    CarOwner(String name, Car managedCar) {
+    CarOwner(String name, Car ownedCar) {
         theName = name;
-        theOwnedCar = managedCar;
+        theOwnedCar = ownedCar;
     }
 
     String getName() {
