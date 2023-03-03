@@ -6,17 +6,16 @@ public class CarOwner {
     private Car theOwnedCar;
 
 
-    CarOwner(String name, Car ownedCar) {
+    CarOwner(String name) {
         theName = name;
-        theOwnedCar = ownedCar;
+
     }
 
     String getName() {
         return theName;
     }
-    
-    String getNameOfCar() {
-        return theOwnedCar.name;
-    }
+
+
+
 
 }
